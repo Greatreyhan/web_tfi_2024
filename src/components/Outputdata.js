@@ -139,12 +139,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {CO2.length > 0 ? CO2[CO2.length-1]:0}
                           </span>
-                          /10000
+                          /10000 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -175,12 +175,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                             {C2H5OH.length > 0 ? C2H5OH[C2H5OH.length-1]:0}
                           </span>
-                          /500
+                          /500 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -211,12 +211,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {CH4.length > 0 ? CH4[CH4.length-1]:0}
                           </span>
-                          /10000
+                          /10000 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -252,12 +252,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {CO.length > 0 ? CO[CO.length-1]:0}
                           </span>
-                          /1000
+                          /1000 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -288,12 +288,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {H2.length > 0 ? H2[H2.length-1]:0}
                           </span>
-                          /1000
+                          /1000 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -324,12 +324,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {NH3.length > 0 ? NH3[NH3.length-1]:0}
                           </span>
-                          /500
+                          /500 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -365,12 +365,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {NO2.length > 0 ? NO2[NO2.length-1]:0}
                           </span>
-                          /10
+                          /10 <span className='text-xs'>ppm</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -401,12 +401,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {temp.length > 0 ? temp[temp.length-1]:0}
                           </span>
-                          /100
+                          /100 <span className='text-xs'>°C</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
@@ -437,12 +437,12 @@ const Outputdata = () => {
                     
                     <div className="block m-auto">
                       <div>
-                        <span className="inline-block text-sm text-gray-500 ">
-                          Concentration :
+                        <span className="inline-block text-xl text-gray-500 ">
+                           
                           <span className="font-bold text-gray-700 ">
                           {humid.length > 0 ? humid[humid.length-1]:0}
                           </span>
-                          /100
+                          /100 <span className='text-xs'>%</span>
                         </span>
                       </div>
                       <div className="w-full h-2 mt-2 bg-gray-200 rounded-full">
