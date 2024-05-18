@@ -4,6 +4,8 @@ import Inputdata from './components/Inputdata';
 import React ,{useState} from "react"
 import Outputdata from './components/Outputdata';
 import Controls from './components/Controls';
+import Inputdatarandom from './components/Inputdatarandom';
+import Outputdatarandom from './components/Outputdatarandom';
 function App() {
 
   const [navSelect, setNavSelect] = useState('input')
@@ -22,7 +24,7 @@ function App() {
           </div>
         </div>
         <div className="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
-          {navSelect == 'input' ? <Inputdata /> : (navSelect == 'output') ? <Outputdata /> : <Controls />}
+          {navSelect == 'input' ? <Inputdatarandom /> : (navSelect == 'output') ? <Outputdatarandom /> : <Controls />}
         </div>
       </div>
     </main>
